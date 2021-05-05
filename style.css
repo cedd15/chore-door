@@ -8,6 +8,18 @@ body {
     background-color: #010165;
 }
 
-#door1 {
+.flex-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: #00ffff;
+    text-align: center;
+}
+
+.door-frame {
     cursor: pointer;
+    padding: 10px;
 }
